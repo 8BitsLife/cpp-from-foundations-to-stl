@@ -2,10 +2,7 @@
 #include <iostream>
 using namespace std;
 
-// ==========================================
 // Overloading new and delete
-// ==========================================
-
 class Test
 {
 private:
