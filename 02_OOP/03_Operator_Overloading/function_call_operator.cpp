@@ -2,10 +2,7 @@
 #include <iostream>
 using namespace std;
 
-// ==========================================
 // Function Call Operator Overloading Example
-// ==========================================
-
 class Multiplier
 {
 private:
