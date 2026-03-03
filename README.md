@@ -1,4 +1,4 @@
-# C++ OOP & STL – MONSTER Academic Version
+# C++ OOP & STL – COMPLETE Academic Version
 
 Inspired directly from 155 pages of handwritten semester notes by Gajanan.
 
