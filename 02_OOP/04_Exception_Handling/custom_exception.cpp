@@ -2,7 +2,7 @@
 #include <exception>
 using namespace std;
 
-// Custom Exception Class
+// Custom Exception Class 
 class InsufficientBalanceException : public exception
 {
 private:
