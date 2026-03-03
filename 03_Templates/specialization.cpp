@@ -1,0 +1,3 @@
+
+template<>
+class Box<char*> {};
