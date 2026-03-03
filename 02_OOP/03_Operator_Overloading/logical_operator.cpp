@@ -2,10 +2,7 @@
 #include <iostream>
 using namespace std;
 
-// ==========================================
 // Logical Operator Overloading Example
-// ==========================================
-
 class Number
 {
 private:
