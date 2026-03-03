@@ -2,10 +2,7 @@
 #include <iostream>
 using namespace std;
 
-// ==========================================
 // Subscript Operator Overloading Example
-// ==========================================
-
 class Array
 {
 private:
