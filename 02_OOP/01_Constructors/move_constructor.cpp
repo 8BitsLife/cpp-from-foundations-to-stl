@@ -1,11 +1,51 @@
-
 #include <iostream>
 using namespace std;
 
-class Data {
-    int* ptr;
+// Move Constructor Example
+
+class Demo
+{
+private:
+    int *ptr;
+
 public:
-    Data(int v){ ptr = new int(v); }
-    Data(Data&& d){ ptr = d.ptr; d.ptr = nullptr; }
-    ~Data(){ delete ptr; }
+    Demo(int value)
+    {
+        ptr = new int(value);
+        cout << "Constructor Called\n";
+    }
+
+    // Move Constructor
+    Demo(Demo &&obj)
+    {
+        ptr = obj.ptr;     // steal resource
+        obj.ptr = nullptr; // avoid double delete
+        cout << "Move Constructor Called\n";
+    }
+
+    void display() const
+    {
+        if (ptr)
+            cout << "Value: " << *ptr << endl;
+        else
+            cout << "Pointer is null\n";
+    }
+
+    ~Demo()
+    {
+        delete ptr;
+    }
 };
+
+int main()
+{
+    Demo d1(100);
+
+    Demo d2 = std::move(d1);   // move constructor
+
+    cout << "After Move:\n";
+    d2.display();
+    d1.display();
+
+    return 0;
+}
