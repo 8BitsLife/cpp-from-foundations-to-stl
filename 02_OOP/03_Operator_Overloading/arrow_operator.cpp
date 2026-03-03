@@ -2,10 +2,7 @@
 #include <iostream>
 using namespace std;
 
-// ==========================================
 // Arrow Operator Overloading Example
-// ==========================================
-
 class Person
 {
 public:
