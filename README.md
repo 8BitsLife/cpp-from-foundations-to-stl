@@ -1,6 +1,6 @@
 # C++ OOP & STL – COMPLETE Academic Version
 
-Inspired directly from 155 pages of handwritten semester notes by Gajanan.
+Inspired directly from 155 pages of handwritten semester notes by Gajanan Ji Sarvesh/Me.
 
 This repository contains full 1:1 academic coverage of:
 
@@ -26,4 +26,4 @@ This repository contains full 1:1 academic coverage of:
 ✔ Sorting & Custom Comparators  
 ✔ STL Algorithms  
 
-Academic. Complete. Structured.
+What are you waiting for, just open and upgrade yourself.
